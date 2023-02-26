@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Html & Css Cheatsheet</title>
+        <link href="../progressive-cheatsheet-main/style.css" rel="stylesheet">
+    </head>
+      <header>
+        <label for="progress">Progress Level:</label>
+
+        <meter id="progress"
+          min="0" max="100"
+          low="33" high="66" optimum="80"
+          value="12">
+          at 12/100
+        </meter>
+        <div></div>
+        <h1 class="main-title">html Cheatsheet</h1>
+      </header>
+        <body>
+            <p>This is a site to create a cheatsheet for myself to reflect on what I've learned and to track my progress. Accidently, I came across the nifty "progress bar", it's the little things right?</p>
+            <h1>html Elements</h1>
+            <table id="element">
+                <tr>
+                    <th>Element</th>
+                    <th>Description</th>
+                    <th>Example</th>
+                </tr>
+                <tr>
+                    <td>&lt;head&gt;</td>
+                    <td>Contains metadata/information for the document.</td>
+                    <td>Here you need to connect stylesheet (see &lt;link&gt; below) and &lt;title&gt;for the browser or tab.</td>
+                </tr>
+                <tr>
+                    <td>&lt;link&gt;</td>
+                    <td>Defines the relationship between a document and an external resource (most used to link to style sheets)</td>
+                    <td>&lt;link href="../project-name/styles.css" rel="stylesheet"&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;header&gt;</td>
+                    <td>Defines content meant to be at the head of the site (nav/headings/opening paragraphs etc)</td>
+                    <td>&lt;header&gt;<br>
+                        &lt;nav&gt;<br>
+                        &lt;p&gt;
+                    </td>
+                </tr>
+                <tr>
+                    <td>&lt;nav&gt;</td>
+                    <td>Defines navigation links</td>
+                    <td>&lt;nav&gt;<br>
+                        &lt;a href="/html/"&gt;HTML&lt;/a&gt; |<br>
+                        &lt;a href="/css/"&gt;CSS&lt;/a&gt; |<br>
+                        &lt;a href="/js/"&gt;JavaScript&lt;/a&gt; |<br>
+                        &lt;a href="/python/"&gt;Python&lt;/a&gt;
+                        &lt;/nav&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;h1&gt;-&lt;h6&gt;</td>
+                    <td>Headings</td>
+                    <td>Fairly self explanatory- Most important heading is #1</td>
+                </tr>
+                <tr>
+                    <td>&lt;a&gt;</td>
+                    <td>Anchor elements are used for Hyperlinks.</td>
+                    <td>&lt;a href="https://www.w3schools.com"&gt;This is a link&lt;/a&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;img&gt;</td>
+                    <td>HTML images are defined with the &lt;img&gt; tag.
+                        The source file (src), alternative text (alt), width, and height are provided as attributes</td>
+                    <td>&lt;img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142"&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;span&gt;</td>
+                    <td>Defines a section in a document (in content style change)</td>
+                    <td>&lt;p&gt;My mother has &lt;span style="color:blue"&gt;blue&lt;/span&gt; eyes.&lt;/p&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;!--&gt;</td>
+                    <td>comment that only shows up in the html file that wont show up in the browser.</td>
+                    <td>&lt;!--This is a comment. Comments are not displayed in the browser--&gt;
+
+                        &lt;p&gt;This is a paragraph.&lt;/p&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;footer&gt;</td>
+                    <td>defines the content meant to be at the bottom, can be more nav, social links, or just a closing paragraph</td>
+                    <td></td>
+                </tr>
+            </table>
+            <img src="../progressive-cheatsheet-main/woman working.png" alt="Woman on laptop">
+        
+    </body>
+</html>
